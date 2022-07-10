@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.segproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SEGproject">
+        <activity android:name=".viewCustomerServiceRequests"></activity>
+        <activity android:name=".serviceRequestInfoDisplay" />
+        <activity android:name=".fillForm" />
+        <activity android:name=".searchResultsList" />
+        <activity android:name=".customerServiceSearch" />
+        <activity android:name=".customerPortal" />
+        <activity android:name=".viewServiceRequests" />
+        <activity android:name=".branchView" />
+        <activity android:name=".setupBranchServices" />
+        <activity android:name=".pickWorkingHours" />
+        <activity android:name=".setupBranch" />
+        <activity android:name=".employeePortal" />
+        <activity android:name=".EditService" />
+        <activity
+            android:name=".ServiceInfoDisplay"
+            android:label="Service Details"
+            android:parentActivityName=".ServicesList" />
+        <activity android:name=".deleteAccountScreen" />
+        <activity android:name=".AddService" />
+        <activity android:name=".ServicesList" />
+        <activity android:name=".adminPortal" />
+        <activity android:name=".UserPortal" />
+        <activity android:name=".customerRegistration" />
+        <activity android:name=".registerType" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

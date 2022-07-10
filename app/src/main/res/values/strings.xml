@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SEGproject</string>
+    <string-array name="Required_form_info">
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Address Name</item>
+        <item>Date of Birth</item>
+        <item>Address</item>
+        <item>License Type</item>
+    </string-array>
+
+    <string-array name="Required_Documents">
+        <item>Proof of Residence</item>
+        <item>Proof of Status</item>
+        <item>Photo</item>
+    </string-array>
+</resources>
